@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Organic{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.75rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: #000;
+}
+
+.navbar-brand:hover{
+    color: #000;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+}
+
+::placeholder{
+    color: #000;
+}
+
+.search{
+    color: #000;
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid rgb(248, 26, 92);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url("../images/spaghetti-1932466_1920.jpg") no-repeat;
+    background-size: cover;
+    height: 85vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: rgb(248, 26, 92);
+    border: 3px rgb(248, 26, 92) solid;
+}
+
+.new h6{
+    font-size: 1.5rem;
+}
+
+.product h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba( 0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba( 0, 0, 0, 0.75);
+}
+
+.apple{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+     url("../images/spaghetti-1932466_1920.jpg") no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+}
+
+.apple h1{
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.btn3{
+    height: 40px;
+    width: 10vw;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: #fff;
+    border-radius: 60px;
+    font-weight: 700;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3:hover{
+    background-color: #fff;
+    color: rgb(248, 26, 92);
+    border: 3px rgb(248, 26, 92) solid;
+}
